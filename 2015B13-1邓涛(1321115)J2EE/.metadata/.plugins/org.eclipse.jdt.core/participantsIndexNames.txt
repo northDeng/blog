@@ -1,0 +1,11 @@
+INDEX VERSION 1.126
+E:\MyEclipse 8.6\2015B13-1╣клн(1321115)J2EE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\658573049.index
+\dtBlog\src
+E:\MyEclipse 8.6\2015B13-1╣клн(1321115)J2EE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2773074972.index
+\dtBlog\src
+E:\MyEclipse 8.6\2015B13-1╣клн(1321115)J2EE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3686676534.index
+\dtBlog\src
+E:\MyEclipse 8.6\2015B13-1╣клн(1321115)J2EE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1437015139.index
+\dtBlog\src
+E:\MyEclipse 8.6\2015B13-1╣клн(1321115)J2EE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3582760835.index
+\dtBlog\src

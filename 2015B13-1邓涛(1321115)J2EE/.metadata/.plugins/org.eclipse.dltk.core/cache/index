@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ASCII"?>
+<cache:CacheIndex xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cache="http://eclipse.org/dltk/cache_model" environment="org.eclipse.dltk.core.environment.localEnvironment">
+  <entries path="C:/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/Home.html" timestamp="1443488424000" lastAccessTime="1444955296125"/>
+  <entries path="C:/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/myfriends.jsp" timestamp="1445303520000" lastAccessTime="1445905771750"/>
+  <entries path="C:/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/myalblum.jsp" timestamp="1445303508000" lastAccessTime="1445905781453"/>
+  <entries path="C:/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/rRegister.jsp" timestamp="1445301296000" lastAccessTime="1445905781468"/>
+  <entries path="C:/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/comment.jsp" timestamp="1445304046000" lastAccessTime="1445905781468"/>
+  <entries path="C:/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/admin/admin.jsp" timestamp="1445313552000" lastAccessTime="1445905801625"/>
+  <entries path="C:/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/admin/1.jsp" timestamp="1445313870000" lastAccessTime="1445905803250"/>
+  <entries path="C:/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/admin/ArticleMan.jsp" timestamp="1445314002000" lastAccessTime="1445905803359"/>
+  <entries path="C:/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/admin/ContentMan.jsp" timestamp="1445314016000" lastAccessTime="1445905803687"/>
+  <entries path="C:/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/admin/MyFrameset.jsp" timestamp="1445313742000" lastAccessTime="1445905803796"/>
+  <entries path="C:/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/admin/UserMan.jsp" timestamp="1445313924000" lastAccessTime="1445905803906"/>
+  <entries path="C:/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/admin/contents.jsp" timestamp="1445313668000" lastAccessTime="1445905804000"/>
+  <entries path="C:/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/index.jsp" timestamp="1445303412000" lastAccessTime="1446165270968"/>
+  <entries path="C:/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/myarticles.jsp" timestamp="1445303484000" lastAccessTime="1446165271031"/>
+  <entries path="C:/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/Login.jsp" timestamp="1446514974000" lastAccessTime="1447115081578"/>
+  <entries path="C:/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/Register.jsp" timestamp="1446515400000" lastAccessTime="1447115081703"/>
+  <entries path="C:/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/Demo.jsp" timestamp="1447120380593" lastAccessTime="1447120381109"/>
+  <entries path="C:/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/rLogin.jsp" timestamp="1447120470906" lastAccessTime="1447120471421"/>
+  <entries path="E:/MyEclipse 8.6/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/admin/UserMan.jsp" timestamp="1447160428070" lastAccessTime="1448585809365"/>
+  <entries path="E:/MyEclipse 8.6/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/admin/articleServer.jsp" timestamp="1447504887891" lastAccessTime="1448585809381"/>
+  <entries path="E:/MyEclipse 8.6/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/admin/content/insertContent.jsp" timestamp="1447504887943" lastAccessTime="1448585809381"/>
+  <entries path="E:/MyEclipse 8.6/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/myfriends.jsp" timestamp="1445303520000" lastAccessTime="1448585809397"/>
+  <entries path="E:/MyEclipse 8.6/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/myalblum.jsp" timestamp="1445303508000" lastAccessTime="1448585809412"/>
+  <entries path="E:/MyEclipse 8.6/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/admin/MyFrameset.jsp" timestamp="1445313742000" lastAccessTime="1448585809428"/>
+  <entries path="E:/MyEclipse 8.6/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/Demo.jsp" timestamp="1447510718417" lastAccessTime="1448585809428"/>
+  <entries path="E:/MyEclipse 8.6/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/myarticles.jsp" timestamp="1445303484000" lastAccessTime="1448585809428"/>
+  <entries path="E:/MyEclipse 8.6/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/Login.jsp" timestamp="1446514974000" lastAccessTime="1448585809443"/>
+  <entries path="E:/MyEclipse 8.6/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/admin/content/deleteContent.jsp" timestamp="1447504887789" lastAccessTime="1448585809521"/>
+  <entries path="E:/MyEclipse 8.6/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/admin/ArticleMan.jsp" timestamp="1447389865609" lastAccessTime="1448585809537"/>
+  <entries path="E:/MyEclipse 8.6/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/admin/contentServer.jsp" timestamp="1447504942518" lastAccessTime="1448585809537"/>
+  <entries path="E:/MyEclipse 8.6/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/admin/article/insertArticle.jsp" timestamp="1447504887793" lastAccessTime="1448585809537"/>
+  <entries path="E:/MyEclipse 8.6/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/Register.jsp" timestamp="1447385576979" lastAccessTime="1448585809553"/>
+  <entries path="E:/MyEclipse 8.6/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/admin/article/deleteArticle.jsp" timestamp="1447504887773" lastAccessTime="1448585809568"/>
+  <entries path="E:/MyEclipse 8.6/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/admin/article/upDateArticle.jsp" timestamp="1447504887858" lastAccessTime="1448585809568"/>
+  <entries path="E:/MyEclipse 8.6/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/Home.html" timestamp="1443488424000" lastAccessTime="1448585809568"/>
+  <entries path="E:/MyEclipse 8.6/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/admin/1.jsp" timestamp="1445313870000" lastAccessTime="1448585809584"/>
+  <entries path="E:/MyEclipse 8.6/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/admin/content/upDateContent.jsp" timestamp="1447401365302" lastAccessTime="1448585809584"/>
+  <entries path="E:/MyEclipse 8.6/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/admin/admin.jsp" timestamp="1445313552000" lastAccessTime="1448585809599"/>
+  <entries path="E:/MyEclipse 8.6/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/admin/contents.jsp" timestamp="1445313668000" lastAccessTime="1448585809599"/>
+  <entries path="E:/MyEclipse 8.6/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/admin/ContentMan.jsp" timestamp="1447391803086" lastAccessTime="1448585809599"/>
+  <entries path="E:/MyEclipse 8.6/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/loginOut.jsp" timestamp="1447726551118" lastAccessTime="1448585809568"/>
+  <entries path="E:/MyEclipse 8.6/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/rLogin.jsp" timestamp="1448096478354" lastAccessTime="1448585809381"/>
+  <entries path="E:/MyEclipse 8.6/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/text.jsp" timestamp="1448184117347" lastAccessTime="1448585809537"/>
+  <entries path="E:/MyEclipse 8.6/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/rRegister.jsp" timestamp="1448520882253" lastAccessTime="1448585809521"/>
+  <entries path="E:/MyEclipse 8.6/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/comment.jsp" timestamp="1449295239376" lastAccessTime="1449312144587"/>
+  <entries path="E:/MyEclipse 8.6/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/dealCommentData.jsp" timestamp="1449312487477" lastAccessTime="1449312488022"/>
+  <entries path="E:/MyEclipse 8.6/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/index.jsp" timestamp="1449312676625" lastAccessTime="1449312677186"/>
+  <entries path="E:/MyEclipse 8.6/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/everyoneComment.jsp" timestamp="1449313206862" lastAccessTime="1449313207398"/>
+  <entries path="E:/MyEclipse 8.6/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/admin/user/deleteAdmin.jsp" timestamp="1449314262348" lastAccessTime="1449314262924"/>
+  <entries path="E:/MyEclipse 8.6/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/admin/user/upDateAdmin.jsp" timestamp="1449314271896" lastAccessTime="1449314272441"/>
+  <entries path="E:/MyEclipse 8.6/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/admin/user/insertAdmin.jsp" timestamp="1449314277129" lastAccessTime="1449536116967"/>
+  <entries path="E:/MyEclipse 8.6/2015B13-1&#x9093;&#x6d9b;(1321115)J2EE/dtBlog/WebRoot/admin/adminServer.jsp" timestamp="1449314324834" lastAccessTime="1449536118339"/>
+</cache:CacheIndex>

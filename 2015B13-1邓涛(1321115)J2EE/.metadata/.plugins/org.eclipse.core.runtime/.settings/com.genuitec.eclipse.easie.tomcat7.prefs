@@ -1,0 +1,10 @@
+#Tue Nov 17 10:47:48 CST 2015
+TOMCAT_HOME=F\:\\Tomcat 7.0
+TOMCAT_TEMP=F\:\\Tomcat 7.0\\temp
+START_IS_DEBUG=false
+LIBRARY_PATH="F\:\\MyEclipes\\Common\\binary\\com.sun.java.jdk.win32.x86_1.6.0.013\\bin;F\:\\Tomcat 7.0\\bin"
+TOMCAT_BASE=F\:\\Tomcat 7.0
+ENDORSED_DIRS="F\:\\Tomcat 7.0/common/endorsed"
+eclipse.preferences.version=1
+JDK_HOME=F\:\\MyEclipes\\Common\\binary\\com.sun.java.jdk.win32.x86_1.6.0.013
+SERVER_ENABLEMENT=true

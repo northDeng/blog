@@ -1,0 +1,52 @@
+<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <base href="<%=basePath%>">
+    
+    <title>My JSP 'rLogin.jsp' starting page</title>
+    
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">    
+	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+	<meta http-equiv="description" content="This is my page">
+	<!--
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	-->
+
+  </head>
+  
+  <body>
+
+  	<% 
+  	String name= request.getParameter("name");
+  	String psw= request.getParameter("passsword");
+  	name =new String(name.getBytes("iso-8859-1"),"utf-8");
+  	if(name.equals("admin") && psw.equals("123")){
+  		session.setAttribute("admin",name);
+  		out.print("欢迎回来"+session.getAttribute("admin")+"正在连接管理员页面.......");
+  		response.setHeader("refresh","3;URL=admin/MyFrameset.jsp");
+  	}else if(name.equals("user") && psw.equals("123")){
+  		session.setAttribute("admin",name);
+  		out.print("欢迎回来"+session.getAttribute("admin"));
+  		response.setHeader("refresh","3;URL=index.jsp");
+  	
+  	}
+  	else{
+  		out.print("请先注册");
+  		response.setHeader("refresh","3;URL=Register.jsp");
+  	}
+  	
+  	%>
+  	
+  	
+   	 <br/>
+   	 
+  </body>
+</html>

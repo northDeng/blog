@@ -1,0 +1,14 @@
+#Fri Nov 27 08:56:43 CST 2015
+tomcat7Server.dtBlog.isExploded=true
+tomcat7Server.dtBlog.altContextRoot=
+tomcat7Server.dtBlog.shouldBackup=true
+tomcat7Server.dtBlog.isUptoDate=true
+tomcat7Server.dtBlog.deploymentPath=F\:\\Tomcat 7.0\\webapps\\dtBlog
+tomcat7Server.dtBlog.shouldOverwrite=false
+tomcat7Server.dtBlog.isDeployed=false
+tomcat7Server.dtBlog.noFileCopy=false
+tomcat7Server.dtBlog.IEARProjectName=
+tomcat7Server.dtBlog.deployIsOverProject=false
+eclipse.preferences.version=1
+tomcat7Server.dtBlog.type=WebDeployment
+tomcat7Server.dtBlog.contextRoot=/dtBlog

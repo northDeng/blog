@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.mysql.jdbc.ResultSet"/>
+<fullyQualifiedTypeName name="com.admin.server.adminServer"/>
+<fullyQualifiedTypeName name="com.mysql.util.mysqlTools"/>
+<fullyQualifiedTypeName name="com.dao.server"/>
+<fullyQualifiedTypeName name="com.dao.serverDao"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="com.util.fenyepage.page"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+</qualifiedTypeNameHistroy>
