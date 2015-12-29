@@ -35,7 +35,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
  	 out.print("<table border=1px><tr><td>id</td><td>name</td><td>content</td></tr>");
   	while(res.next()){
   		out.print("<tr><td>"+res.getString("id")+"</td><td>"+
-  		res.getString("name")+"</td><td>"+res.getString("content")+"</td></tr>");	
+  		res.getString("name")+"</td><td>"+res.getString("content")+"</td><td>"+res.getString("title")+"</td></tr>");	
   	}
   		cts.close();
 	  out.print("</table>");

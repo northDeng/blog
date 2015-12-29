@@ -1,5 +1,5 @@
 <%@page import="com.server.adminServer"%>
-<%@page import="com.util.fenyepage.*" %>
+<%@page import="com.util.page.*" %>
 <%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
 <%
 String path = request.getContextPath();

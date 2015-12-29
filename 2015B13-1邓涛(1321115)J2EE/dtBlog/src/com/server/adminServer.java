@@ -3,8 +3,8 @@ import java.sql.ResultSet;
 
 import com.admin.*;
 import com.dao.serverDao;
-import com.util.fenyepage.page;
 import com.util.mysql.mysqlTools;
+import com.util.page.page;
 public class adminServer extends server{
 
 	/**
@@ -19,7 +19,7 @@ public class adminServer extends server{
 	/**
 	 * 根据name对user表进行查询
 	 * @param name
-	 * @return
+	 * @return 返回一个ResultSet类型的结果集
 	 */
 	public ResultSet query_name(String name){
 		String sql = "select * from User where name = '"+name+"'";
@@ -29,7 +29,7 @@ public class adminServer extends server{
 	 * 对uesr表进行插入
 	 * @param name
 	 * @param password
-	 * @return
+	 * @return 返回一个int类型的数值  0代表失败 其他数值代表成功 
 	 */
 	public int insert(String name,String password){
 		return this.upDate("insert into user(name,password) values('"+name+"','"+password+"');");
@@ -39,7 +39,7 @@ public class adminServer extends server{
 	 * @param name 用户的登录名
 	 * @param password 用户的密码
 	 * 修改对应用户的密码
-	 * @return
+	 * @return 返回一个int类型的数值  0代表失败 其他数值代表成功 
 	 */
 	public int upDate(String name,String password){
 		return this.upDate("update User set password='"+password+"'where name='"+name+"'");
@@ -47,9 +47,9 @@ public class adminServer extends server{
 	/**
 	 * 重载上面的函数
 	 * @param name 用户的登录名
-	 * @param password用户的密码
+	 * @param password 用户的密码
 	 * @param level 用户的操作等级
-	 * @return
+	 * @return 返回一个int类型的数值  0代表失败 其他数值代表成功 
 	 */
 	public int upDate(String name,String password,String level){
 		return this.upDate("update User set password='"+password+"', level='"+level+"' where name='"+name+"'");
@@ -60,7 +60,7 @@ public class adminServer extends server{
 	 * @return
 	 */
 	public int delete(String value){
-		return super.upDate( "delete from  User where name='"+value+"'");
+		return this.upDate( "delete from  User where name='"+value+"'");
 	}
 	
 	/**

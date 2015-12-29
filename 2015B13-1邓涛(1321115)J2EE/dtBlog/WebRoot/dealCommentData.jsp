@@ -28,9 +28,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <%
     	comment c = new comment();
     	c.setName(request.getParameter("name"));
+    	c.setTitle(new String(request.getParameter("title").getBytes("iso-8859-1"),"utf-8"));
     	c.setComment(new String(request.getParameter("comment").getBytes("iso-8859-1"),"utf-8"));
     	contentServer cts = new contentServer();
-    	if(cts.insert(c.getName(), c.getComment())>0){
+    	if(cts.insert(c.getName(), c.getComment(),c.getTitle())>0){
     		cts.insert_count(c.getName());
     		out.println("添加成功");
     		response.setHeader("refresh","2;URL=index.jsp");

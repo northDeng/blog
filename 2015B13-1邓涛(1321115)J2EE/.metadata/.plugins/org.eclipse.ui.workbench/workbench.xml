@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="73" version="2.0">
 <workbenchAdvisor/>
-<window height="886" maximized="true" width="1024" x="221" y="100">
+<window height="886" width="1024" x="740" y="31">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
 </perspectiveBar>
 <coolbarLayout locked="0">
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="101" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="262" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="com.genuitec.eclipse.j2eedt.core.ejb" itemType="typeToolBarContribution" x="55" y="22"/>
 <coolItem id="com.genuitec.eclipse.uml.actions" itemType="typeToolBarContribution" x="61" y="22"/>
@@ -27,7 +27,8 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.jboss.tools.common.model.ui.editor.EditorPartWrapper" itemType="typePlaceholder" x="38" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jst.jsp.core.jspsource.source" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.css.core.csssource.source" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -51,55 +52,45 @@
 <part id="6"/>
 <part id="7"/>
 <part id="8"/>
-<part id="9"/>
-<part id="10"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="index.jsp" partName="index.jsp" path="E:/MyEclipse 8.6/2015B13-1邓涛(1321115)J2EE/dtBlog/WebRoot/index.jsp" title="index.jsp" tooltip="dtBlog/WebRoot/index.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/dtBlog/WebRoot/index.jsp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="969" selectionTopPixel="288"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="contentServer.java" partName="contentServer.java" path="E:/MyEclipse 8.6/2015B13-1邓涛(1321115)J2EE/dtBlog/src/com/server/contentServer.java" title="contentServer.java" tooltip="dtBlog/src/com/server/contentServer.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/dtBlog/src/com/server/contentServer.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="5" selectionOffset="223" selectionTopPixel="96"/>
-</editor>
-<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="rLogin.jsp" partName="rLogin.jsp" path="E:/MyEclipse 8.6/2015B13-1邓涛(1321115)J2EE/dtBlog/WebRoot/rLogin.jsp" title="rLogin.jsp" tooltip="dtBlog/WebRoot/rLogin.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/dtBlog/WebRoot/rLogin.jsp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="936"/>
-</editor>
 <editor id="org.eclipse.jst.jsp.core.jspsource.source" name="MyFrameset.jsp" partName="MyFrameset.jsp" path="E:/MyEclipse 8.6/2015B13-1邓涛(1321115)J2EE/dtBlog/WebRoot/admin/MyFrameset.jsp" title="MyFrameset.jsp" tooltip="dtBlog/WebRoot/admin/MyFrameset.jsp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/dtBlog/WebRoot/admin/MyFrameset.jsp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="58" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="admin.jsp" partName="admin.jsp" path="E:/MyEclipse 8.6/2015B13-1邓涛(1321115)J2EE/dtBlog/WebRoot/admin/admin.jsp" title="admin.jsp" tooltip="dtBlog/WebRoot/admin/admin.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/dtBlog/WebRoot/admin/admin.jsp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="423" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="UserMan.jsp" partName="UserMan.jsp" path="E:/MyEclipse 8.6/2015B13-1邓涛(1321115)J2EE/dtBlog/WebRoot/admin/UserMan.jsp" title="UserMan.jsp" tooltip="dtBlog/WebRoot/admin/UserMan.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/dtBlog/WebRoot/admin/UserMan.jsp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="347" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.jst.jsp.core.jspsource.source" name="adminServer.jsp" partName="adminServer.jsp" path="E:/MyEclipse 8.6/2015B13-1邓涛(1321115)J2EE/dtBlog/WebRoot/admin/adminServer.jsp" title="adminServer.jsp" tooltip="dtBlog/WebRoot/admin/adminServer.jsp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/dtBlog/WebRoot/admin/adminServer.jsp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2491" selectionTopPixel="1226"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="485" selectionTopPixel="720"/>
 </editor>
-<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="insertAdmin.jsp" partName="insertAdmin.jsp" path="E:/MyEclipse 8.6/2015B13-1邓涛(1321115)J2EE/dtBlog/WebRoot/admin/user/insertAdmin.jsp" title="insertAdmin.jsp" tooltip="dtBlog/WebRoot/admin/user/insertAdmin.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/dtBlog/WebRoot/admin/user/insertAdmin.jsp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="929" selectionTopPixel="216"/>
+<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="ArticleMan.jsp" partName="ArticleMan.jsp" path="E:/MyEclipse 8.6/2015B13-1邓涛(1321115)J2EE/dtBlog/WebRoot/admin/ArticleMan.jsp" title="ArticleMan.jsp" tooltip="dtBlog/WebRoot/admin/ArticleMan.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/dtBlog/WebRoot/admin/ArticleMan.jsp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="deleteAdmin.jsp" partName="deleteAdmin.jsp" path="E:/MyEclipse 8.6/2015B13-1邓涛(1321115)J2EE/dtBlog/WebRoot/admin/user/deleteAdmin.jsp" title="deleteAdmin.jsp" tooltip="dtBlog/WebRoot/admin/user/deleteAdmin.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/dtBlog/WebRoot/admin/user/deleteAdmin.jsp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="929" selectionTopPixel="578"/>
+<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="articleServer.jsp" partName="articleServer.jsp" path="E:/MyEclipse 8.6/2015B13-1邓涛(1321115)J2EE/dtBlog/WebRoot/admin/articleServer.jsp" title="articleServer.jsp" tooltip="dtBlog/WebRoot/admin/articleServer.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/dtBlog/WebRoot/admin/articleServer.jsp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="648"/>
 </editor>
-<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="upDateAdmin.jsp" partName="upDateAdmin.jsp" path="E:/MyEclipse 8.6/2015B13-1邓涛(1321115)J2EE/dtBlog/WebRoot/admin/user/upDateAdmin.jsp" title="upDateAdmin.jsp" tooltip="dtBlog/WebRoot/admin/user/upDateAdmin.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/dtBlog/WebRoot/admin/user/upDateAdmin.jsp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="929" selectionTopPixel="432"/>
+<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="contentServer.jsp" partName="contentServer.jsp" path="E:/MyEclipse 8.6/2015B13-1邓涛(1321115)J2EE/dtBlog/WebRoot/admin/contentServer.jsp" title="contentServer.jsp" tooltip="dtBlog/WebRoot/admin/contentServer.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/dtBlog/WebRoot/admin/contentServer.jsp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1362" selectionTopPixel="720"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jst.jsp.core.jspsource.source" name="comment.jsp" partName="comment.jsp" path="E:/MyEclipse 8.6/2015B13-1邓涛(1321115)J2EE/dtBlog/WebRoot/comment.jsp" title="comment.jsp" tooltip="dtBlog/WebRoot/comment.jsp" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="showArticle.jsp" partName="showArticle.jsp" path="E:/MyEclipse 8.6/2015B13-1邓涛(1321115)J2EE/dtBlog/WebRoot/showArticle.jsp" title="showArticle.jsp" tooltip="dtBlog/WebRoot/showArticle.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/dtBlog/WebRoot/showArticle.jsp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="comment.jsp" partName="comment.jsp" path="E:/MyEclipse 8.6/2015B13-1邓涛(1321115)J2EE/dtBlog/WebRoot/comment.jsp" title="comment.jsp" tooltip="dtBlog/WebRoot/comment.jsp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/dtBlog/WebRoot/comment.jsp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1091" selectionTopPixel="530"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="889" selectionTopPixel="481"/>
+</editor>
+<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="dealCommentData.jsp" partName="dealCommentData.jsp" path="E:/MyEclipse 8.6/2015B13-1邓涛(1321115)J2EE/dtBlog/WebRoot/dealCommentData.jsp" title="dealCommentData.jsp" tooltip="dtBlog/WebRoot/dealCommentData.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/dtBlog/WebRoot/dealCommentData.jsp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="457"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jst.jsp.core.jspsource.source" name="index.jsp" partName="index.jsp" path="E:/MyEclipse 8.6/2015B13-1邓涛(1321115)J2EE/dtBlog/WebRoot/index.jsp" title="index.jsp" tooltip="dtBlog/WebRoot/index.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/dtBlog/WebRoot/index.jsp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="1440"/>
 </editor>
 </editors>
 <views>
@@ -131,7 +122,8 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>&#x0A;<category IMemento.internal.id="Warnings"/>
+<expanded>
+<category IMemento.internal.id="Warnings"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -317,8 +309,8 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.25877634" ratioLeft="258" ratioRight="739" relationship="2" relative="cvslocation"/>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@9fe5c5" ratio="0.82414305" ratioLeft="553" ratioRight="118" relationship="2" relative="org.eclipse.ui.editorss">
+<info part="org.eclipse.ui.editorss" ratio="0.1398638" ratioLeft="267" ratioRight="1642" relationship="2" relative="cvslocation"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@9fe5c5" ratio="0.8" ratioLeft="520" ratioRight="130" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
@@ -334,8 +326,8 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="bottom" ratio="0.7175081" ratioLeft="668" ratioRight="263" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<info folder="true" part="bottom" ratio="0.71858215" ratioLeft="669" ratioRight="262" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="com.genuitec.eclipse.ast.deploy.core.serverview" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="com.genuitec.eclipse.ui.HTMLView" label="Web Browser"/>
@@ -523,177 +515,175 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/dtBlog/src/com/server/contentServer.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/dtBlog/WebRoot/admin/ContentMan.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/dtBlog/WebRoot/myalblum.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/dtBlog/WebRoot/dealCommentData.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/dtBlog/WebRoot/comment.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/dtBlog/src/com/server/server.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/dtBlog/src/com/util/mysql/mysqlTools.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/dtBlog/WebRoot/index.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/dtBlog/WebRoot/everyoneComment.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/dtBlog/WebRoot/dealArticle.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/dtBlog/WebRoot/showArticle.jsp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/dtBlog/WebRoot/comment.jsp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/dtBlog/WebRoot/dealCommentData.jsp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/dtBlog/src/com/comment/comment.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/dtBlog/src/com/server/contentServer.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/dtBlog/WebRoot/rLogin.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/dtBlog/WebRoot/Login.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/dtBlog/src/com/servlet/loginServlet.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/dtBlog/WebRoot/Register.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/dtBlog/src/com/servlet/regServlet.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/dtBlog/WebRoot/admin/MyFrameset.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/dtBlog/WebRoot/admin/admin.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/dtBlog/WebRoot/admin/UserMan.jsp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/dtBlog/WebRoot/admin/adminServer.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/dtBlog/WebRoot/admin/user/insertAdmin.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/dtBlog/WebRoot/admin/user/deleteAdmin.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/dtBlog/WebRoot/admin/user/upDateAdmin.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/dtBlog/WebRoot/admin/ArticleMan.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/dtBlog/WebRoot/admin/articleServer.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/dtBlog/WebRoot/admin/contentServer.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/dtBlog/WebRoot/showArticle.jsp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/dtBlog/WebRoot/comment.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/dtBlog/WebRoot/dealCommentData.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/dtBlog/WebRoot/index.jsp"/>
 </editors>
-<item historyLabel="ContentMan.jsp" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="myalblum.jsp" index="2">
-<position info="not_deleted" x="497" y="0"/>
-</item>
-<item historyLabel="dealCommentData.jsp" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="comment.jsp" index="4">
-<position info="not_deleted" x="1251" y="0"/>
-</item>
-<item historyLabel="dealCommentData.jsp" index="3">
-<position info="not_deleted" x="1111" y="0"/>
-</item>
-<item historyLabel="contentServer.java" index="0">
-<position info="not_deleted" x="416" y="6"/>
-</item>
-<item historyLabel="contentServer.java" index="0">
-<position info="not_deleted" x="682" y="0"/>
-</item>
-<item historyLabel="contentServer.java" index="0">
-<position info="not_deleted" x="763" y="0"/>
-</item>
-<item historyLabel="contentServer.java" index="0">
-<position info="not_deleted" x="599" y="0"/>
-</item>
-<item historyLabel="dealCommentData.jsp" index="3">
-<position info="not_deleted" x="1164" y="0"/>
-</item>
-<item historyLabel="contentServer.java" index="0">
-<position info="not_deleted" x="658" y="12"/>
-</item>
-<item historyLabel="server.java" index="5">
-<position info="not_deleted" x="380" y="0"/>
-</item>
-<item historyLabel="server.java" index="5">
-<position info="not_deleted" x="610" y="6"/>
-</item>
-<item historyLabel="mysqlTools.java" index="6">
-<position info="not_deleted" x="1560" y="0"/>
-</item>
-<item historyLabel="mysqlTools.java" index="6">
-<position info="not_deleted" x="1336" y="0"/>
-</item>
-<item historyLabel="index.jsp" index="7">
-<position info="not_deleted" x="865" y="19"/>
-</item>
-<item historyLabel="everyoneComment.jsp" index="8">
-<position info="not_deleted" x="176" y="0"/>
-</item>
-<item historyLabel="comment.jsp" index="9">
-<position info="not_deleted" x="894" y="0"/>
-</item>
-<item historyLabel="dealCommentData.jsp" index="10">
-<position info="not_deleted" x="70" y="67"/>
-</item>
-<item historyLabel="everyoneComment.jsp" index="8">
-<position info="not_deleted" x="1217" y="0"/>
-</item>
-<item historyLabel="comment.java" index="11">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="dealCommentData.jsp" index="10">
-<position info="not_deleted" x="70" y="67"/>
-</item>
-<item historyLabel="comment.java" index="11">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="comment.jsp" index="9">
-<position info="not_deleted" x="894" y="0"/>
-</item>
-<item historyLabel="everyoneComment.jsp" index="8">
-<position info="not_deleted" x="1217" y="0"/>
-</item>
-<item historyLabel="comment.jsp" index="9">
-<position info="not_deleted" x="894" y="0"/>
-</item>
-<item historyLabel="everyoneComment.jsp" index="8">
-<position info="not_deleted" x="1217" y="0"/>
-</item>
-<item historyLabel="comment.java" index="11">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="everyoneComment.jsp" index="8">
-<position info="not_deleted" x="1217" y="0"/>
-</item>
-<item historyLabel="contentServer.java" index="12">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="everyoneComment.jsp" index="8">
-<position info="not_deleted" x="1036" y="0"/>
-</item>
-<item historyLabel="contentServer.java" index="12">
-<position info="not_deleted" x="299" y="0"/>
-</item>
-<item historyLabel="everyoneComment.jsp" index="8">
-<position info="not_deleted" x="1069" y="0"/>
-</item>
-<item historyLabel="contentServer.java" index="12">
-<position info="not_deleted" x="223" y="5"/>
-</item>
-<item historyLabel="everyoneComment.jsp" index="8">
-<position info="not_deleted" x="674" y="0"/>
-</item>
-<item historyLabel="contentServer.java" index="12">
-<position info="not_deleted" x="223" y="5"/>
-</item>
-<item historyLabel="rLogin.jsp" index="13">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="index.jsp" index="7">
-<position info="not_deleted" x="969" y="0"/>
-</item>
-<item historyLabel="MyFrameset.jsp" index="14">
-<position info="not_deleted" x="58" y="0"/>
-</item>
-<item historyLabel="admin.jsp" index="15">
-<position info="not_deleted" x="423" y="0"/>
-</item>
-<item historyLabel="UserMan.jsp" index="16">
-<position info="not_deleted" x="347" y="0"/>
-</item>
-<item historyLabel="adminServer.jsp" index="17">
-<position info="not_deleted" x="1980" y="0"/>
-</item>
-<item historyLabel="insertAdmin.jsp" index="18">
+<item historyLabel="dealArticle.jsp" index="1">
 <position/>
 </item>
-<item historyLabel="deleteAdmin.jsp" index="19">
-<position info="not_deleted" x="929" y="0"/>
+<item historyLabel="index.jsp" index="0">
+<position info="not_deleted" x="70" y="68"/>
 </item>
-<item historyLabel="upDateAdmin.jsp" index="20">
-<position info="not_deleted" x="1027" y="0"/>
+<item historyLabel="dealArticle.jsp" index="1">
+<position/>
 </item>
-<item historyLabel="deleteAdmin.jsp" index="19">
-<position info="not_deleted" x="929" y="0"/>
+<item historyLabel="index.jsp" index="0">
+<position info="not_deleted" x="2305" y="0"/>
 </item>
-<item historyLabel="upDateAdmin.jsp" index="20">
-<position info="not_deleted" x="929" y="0"/>
+<item historyLabel="dealArticle.jsp" index="1">
+<position info="not_deleted" x="654" y="15"/>
 </item>
-<item historyLabel="insertAdmin.jsp" index="18">
-<position info="not_deleted" x="929" y="0"/>
+<item historyLabel="showArticle.jsp" index="2">
+<position/>
 </item>
-<item historyLabel="adminServer.jsp" index="17">
-<position info="not_deleted" x="1980" y="0"/>
+<item historyLabel="dealArticle.jsp" index="1">
+<position info="not_deleted" x="389" y="0"/>
 </item>
-<item active="true" historyLabel="comment.jsp" index="21">
+<item historyLabel="showArticle.jsp" index="2">
+<position/>
+</item>
+<item historyLabel="dealArticle.jsp" index="1">
+<position info="not_deleted" x="70" y="68"/>
+</item>
+<item historyLabel="showArticle.jsp" index="2">
+<position info="not_deleted" x="65" y="0"/>
+</item>
+<item historyLabel="dealArticle.jsp" index="1">
+<position info="not_deleted" x="320" y="389"/>
+</item>
+<item historyLabel="showArticle.jsp" index="2">
+<position info="not_deleted" x="263" y="0"/>
+</item>
+<item historyLabel="dealArticle.jsp" index="1">
+<position info="not_deleted" x="144" y="95"/>
+</item>
+<item historyLabel="showArticle.jsp" index="2">
+<position info="not_deleted" x="476" y="0"/>
+</item>
+<item historyLabel="index.jsp" index="0">
+<position info="not_deleted" x="716" y="59"/>
+</item>
+<item historyLabel="showArticle.jsp" index="2">
+<position/>
+</item>
+<item historyLabel="comment.jsp" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="showArticle.jsp" index="2">
+<position/>
+</item>
+<item historyLabel="comment.jsp" index="3">
+<position info="not_deleted" x="885" y="0"/>
+</item>
+<item historyLabel="dealCommentData.jsp" index="4">
+<position info="not_deleted" x="898" y="0"/>
+</item>
+<item historyLabel="comment.java" index="5">
+<position info="not_deleted" x="137" y="0"/>
+</item>
+<item historyLabel="dealCommentData.jsp" index="4">
+<position info="not_deleted" x="898" y="0"/>
+</item>
+<item historyLabel="comment.jsp" index="3">
+<position info="not_deleted" x="889" y="0"/>
+</item>
+<item historyLabel="dealCommentData.jsp" index="4">
+<position info="not_deleted" x="1203" y="0"/>
+</item>
+<item historyLabel="contentServer.java" index="6">
+<position info="not_deleted" x="632" y="0"/>
+</item>
+<item historyLabel="dealCommentData.jsp" index="4">
+<position info="not_deleted" x="1203" y="0"/>
+</item>
+<item historyLabel="comment.jsp" index="3">
+<position info="not_deleted" x="889" y="0"/>
+</item>
+<item historyLabel="showArticle.jsp" index="2">
+<position/>
+</item>
+<item historyLabel="dealCommentData.jsp" index="4">
+<position info="not_deleted" x="1342" y="0"/>
+</item>
+<item historyLabel="comment.jsp" index="3">
+<position info="not_deleted" x="889" y="0"/>
+</item>
+<item historyLabel="showArticle.jsp" index="2">
+<position info="not_deleted" x="106" y="32"/>
+</item>
+<item historyLabel="comment.jsp" index="3">
+<position info="not_deleted" x="889" y="0"/>
+</item>
+<item historyLabel="dealCommentData.jsp" index="4">
+<position info="not_deleted" x="927" y="0"/>
+</item>
+<item historyLabel="comment.jsp" index="3">
+<position info="not_deleted" x="889" y="0"/>
+</item>
+<item historyLabel="dealCommentData.jsp" index="4">
+<position info="not_deleted" x="969" y="72"/>
+</item>
+<item historyLabel="comment.jsp" index="3">
+<position info="not_deleted" x="889" y="0"/>
+</item>
+<item historyLabel="Login.jsp" index="7">
+<position info="not_deleted" x="1125" y="0"/>
+</item>
+<item historyLabel="loginServlet.java" index="8">
+<position info="not_deleted" x="2918" y="0"/>
+</item>
+<item historyLabel="Register.jsp" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="regServlet.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Register.jsp" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="MyFrameset.jsp" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="adminServer.jsp" index="12">
+<position info="not_deleted" x="485" y="0"/>
+</item>
+<item historyLabel="ArticleMan.jsp" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="articleServer.jsp" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="contentServer.jsp" index="15">
+<position info="not_deleted" x="1362" y="0"/>
+</item>
+<item historyLabel="showArticle.jsp" index="16">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="comment.jsp" index="17">
+<position info="not_deleted" x="889" y="0"/>
+</item>
+<item historyLabel="dealCommentData.jsp" index="18">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="index.jsp" index="19">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
@@ -702,6 +692,14 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="topleft"/>
+<trimItem IMemento.internal.id="bottomleft"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@9fe5c5"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@1a5fc52"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -709,36 +707,46 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="index.jsp" tooltip="dtBlog/WebRoot/index.jsp">
+<persistable path="/dtBlog/WebRoot/index.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="dealCommentData.jsp" tooltip="dtBlog/WebRoot/dealCommentData.jsp">
+<persistable path="/dtBlog/WebRoot/dealCommentData.jsp"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="comment.jsp" tooltip="dtBlog/WebRoot/comment.jsp">
 <persistable path="/dtBlog/WebRoot/comment.jsp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="upDateAdmin.jsp" tooltip="dtBlog/WebRoot/admin/user/upDateAdmin.jsp">
-<persistable path="/dtBlog/WebRoot/admin/user/upDateAdmin.jsp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="showArticle.jsp" tooltip="dtBlog/WebRoot/showArticle.jsp">
+<persistable path="/dtBlog/WebRoot/showArticle.jsp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="deleteAdmin.jsp" tooltip="dtBlog/WebRoot/admin/user/deleteAdmin.jsp">
-<persistable path="/dtBlog/WebRoot/admin/user/deleteAdmin.jsp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="contentServer.jsp" tooltip="dtBlog/WebRoot/admin/contentServer.jsp">
+<persistable path="/dtBlog/WebRoot/admin/contentServer.jsp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="insertAdmin.jsp" tooltip="dtBlog/WebRoot/admin/user/insertAdmin.jsp">
-<persistable path="/dtBlog/WebRoot/admin/user/insertAdmin.jsp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="articleServer.jsp" tooltip="dtBlog/WebRoot/admin/articleServer.jsp">
+<persistable path="/dtBlog/WebRoot/admin/articleServer.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="ArticleMan.jsp" tooltip="dtBlog/WebRoot/admin/ArticleMan.jsp">
+<persistable path="/dtBlog/WebRoot/admin/ArticleMan.jsp"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="adminServer.jsp" tooltip="dtBlog/WebRoot/admin/adminServer.jsp">
 <persistable path="/dtBlog/WebRoot/admin/adminServer.jsp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="UserMan.jsp" tooltip="dtBlog/WebRoot/admin/UserMan.jsp">
-<persistable path="/dtBlog/WebRoot/admin/UserMan.jsp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="admin.jsp" tooltip="dtBlog/WebRoot/admin/admin.jsp">
-<persistable path="/dtBlog/WebRoot/admin/admin.jsp"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="MyFrameset.jsp" tooltip="dtBlog/WebRoot/admin/MyFrameset.jsp">
 <persistable path="/dtBlog/WebRoot/admin/MyFrameset.jsp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="rLogin.jsp" tooltip="dtBlog/WebRoot/rLogin.jsp">
-<persistable path="/dtBlog/WebRoot/rLogin.jsp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="regServlet.java" tooltip="dtBlog/src/com/servlet/regServlet.java">
+<persistable path="/dtBlog/src/com/servlet/regServlet.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="Register.jsp" tooltip="dtBlog/WebRoot/Register.jsp">
+<persistable path="/dtBlog/WebRoot/Register.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="loginServlet.java" tooltip="dtBlog/src/com/servlet/loginServlet.java">
+<persistable path="/dtBlog/src/com/servlet/loginServlet.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="contentServer.java" tooltip="dtBlog/src/com/server/contentServer.java">
 <persistable path="/dtBlog/src/com/server/contentServer.java"/>
@@ -746,17 +754,8 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="comment.java" tooltip="dtBlog/src/com/comment/comment.java">
 <persistable path="/dtBlog/src/com/comment/comment.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="dealCommentData.jsp" tooltip="dtBlog/WebRoot/dealCommentData.jsp">
-<persistable path="/dtBlog/WebRoot/dealCommentData.jsp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="everyoneComment.jsp" tooltip="dtBlog/WebRoot/everyoneComment.jsp">
-<persistable path="/dtBlog/WebRoot/everyoneComment.jsp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="index.jsp" tooltip="dtBlog/WebRoot/index.jsp">
-<persistable path="/dtBlog/WebRoot/index.jsp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="myalblum.jsp" tooltip="dtBlog/WebRoot/myalblum.jsp">
-<persistable path="/dtBlog/WebRoot/myalblum.jsp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="dealArticle.jsp" tooltip="dtBlog/WebRoot/dealArticle.jsp">
+<persistable path="/dtBlog/WebRoot/dealArticle.jsp"/>
 </file>
 </mruList>
 </workbench>

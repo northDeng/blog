@@ -1,6 +1,6 @@
 <%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
 <%@ page import="java.sql.*" %>
-<%@ page import="com.mysql.util.*" %>
+<%@ page import="com.util.mysql.*" %>
 <%@ page import="com.admin.*"%>
 <%@ page import="com.server.*"%>
 <%

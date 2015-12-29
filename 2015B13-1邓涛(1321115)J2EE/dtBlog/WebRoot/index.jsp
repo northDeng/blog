@@ -1,4 +1,7 @@
 <%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+<%@page import="com.util.mysql.*" %>
+<%@page import="java.sql.*" %>
+
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
@@ -61,13 +64,19 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		<div id="lcategory">
 			<h4 class="category"><span>我的文章分类</span></h4>
 			<ul>
-				<li><a href="#">个人随笔</a></li>
-				<li><a href="#">美术设计</a></li>
-				<li><a href="#">CSS样式风格</a></li>
-				<li><a href="#">Ajax学习心得</a></li>
-				<li><a href="#">新疆甘肃游记</a></li>
-				<li><a href="#">学生节</a></li>
-				<li><a href="#">职业生涯</a></li>
+				<%
+					mysqlTools mst = new mysqlTools();
+					String sql = "select * from articleClass";
+					ResultSet res = mst.execute_dql(sql);
+					List<String> list = new ArrayList<String>();
+					while(res.next()){
+						list.add(res.getString("articleclass"));
+					}
+					mst.close();
+					for(String str:list){
+				%>
+				<li><a href="dealArticle.jsp?articleclass=<%out.print(str); %>"><%out.print(str); %></a></li>
+				<%} %>
 			</ul>
 			<br>
 		</div>

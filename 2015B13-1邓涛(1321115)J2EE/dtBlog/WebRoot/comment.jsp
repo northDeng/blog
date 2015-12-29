@@ -25,21 +25,19 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <body>
   <% 
 	if(session.getAttribute("admin")!=null){
-		
-	
   %>
    	 留言页面. <br/>
     <form action="dealCommentData.jsp" method="get">
     	<table>
-    		<tr><td>姓名</td><td><input type="text" name="name" value="<%=session.getAttribute("admin") %>"></td></tr>
+    		<tr><td>姓名</td><td><input type="text" name="name" value="<%=session.getAttribute("admin") %>" readonly></td></tr>
+    		<tr><td>标题</td><td><input type="text" name="title" value="<%if(request.getParameter("title") != null)out.print(new String(request.getParameter("title").getBytes("iso-8859-1"),"utf-8")); %>"/></td></tr>
     		<tr><td>留言</td><td><textarea rows=3 cols=30 name="comment"></textarea></td></tr>
     		<tr align ="center"><td colspan="2" ><input type="submit" value="提交"/></td></tr>
     	</table>
     </form>
     <% 
 	}else{
-	out.print("你无权访问，请先登录或注册");
-	
+		out.print("你无权访问，请先登录或注册");
 	} %>
     
     

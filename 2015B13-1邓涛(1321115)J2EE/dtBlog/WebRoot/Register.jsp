@@ -77,7 +77,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </center>
   <body> 
   <center>
-   <form action ="rRegister.jsp" method="post" name="myform" onsubmit="return judge()">
+   <form action ="servlet/regServlet"" method="post" name="myform" onsubmit="return judge()">
    <table>
   <tr><td>学号:</td><td><input type="text" name="StuNum"/></td><td>格式:0505070101*请输入你的学号</td></tr>
    <tr><td>密码:</td><td><input type="password" name="password"/></td><td>*密码不符合安全规则，由字母和数字组成</td></tr>

@@ -1,0 +1,18 @@
+<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+<%@page import="com.util.mysql.*" %>
+<%@page import="java.sql.*" %>
+<%
+String title = request.getParameter("title");
+mysqlTools mst = new mysqlTools();
+String sql = "select * from article where articleclass like '%"+title+"%'";
+ResultSet res = mst.execute_dql(sql);
+List<String> list = new ArrayList<String>();
+while(res.next()){
+	list.add(res.getString("title"));
+}
+mst.close();
+for(String str:list){
+	out.println("<a href='showArticle.jsp?title="+str+"'>"+str+"</a><br/>");
+}
+
+%>

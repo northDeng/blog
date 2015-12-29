@@ -4,6 +4,13 @@ public class comment {
 	private int id;
 	private String name;
 	private String comment;
+	private String title;
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
 	public int getId() {
 		return id;
 	}

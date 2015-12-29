@@ -18,12 +18,12 @@ public class contentServer extends server{
 	
 	/**
 	 * 对content表进行插入
-	 * @param name留言人的名字
-	 * @param content留言内容
+	 * @param name 留言人的名字
+	 * @param content 留言内容
 	 * @return
 	 */
-	public int insert(String name,String content){
-		String sql = "insert into content(name,content) values('"+name+"','"+content+"')";
+	public int insert(String name,String content,String title){
+		String sql = "insert into content(name,content,title) values('"+name+"','"+content+"','"+title+"')";
 		return this.upDate(sql);
 	}
 	/**
@@ -53,6 +53,6 @@ public class contentServer extends server{
 	 */
 	public int delete(String name){
 		String sql = "delete from  content where name='"+name+"'";
-		return this.mt.execute_dml(sql);
+		return this.upDate(sql);
 	}
 }

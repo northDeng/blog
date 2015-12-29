@@ -37,7 +37,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   	登陆界面<br/>
   <body> 
-    <form action="rLogin.jsp"  method="post" name="myform" onsubmit="return fun()" />
+    <form action="servlet/loginServlet"  method="post" name="myform" onsubmit="return fun()" />
         账号<input type="text" name="name"/><br/>密码<input type="password" name="password"/><br/>
    <input type="submit"  value="submit"/> 
    <input type="reset" value="reset" /> 

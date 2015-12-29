@@ -1,6 +1,7 @@
-#Tue Nov 17 09:03:59 CST 2015
+#Tue Dec 22 09:55:52 CST 2015
 content_assist_proposals_foreground=0,0,0
 spelling_locale_initialized=true
+command=F\:\\MyEclipes\\Common\\binary\\com.sun.java.jdk.win32.x86_1.6.0.013\\bin\\javadoc.exe
 org.eclipse.jdt.ui.text.templates_migrated=true
 useAnnotationsPrefPage=true
 eclipse.preferences.version=1
@@ -11,8 +12,8 @@ fontPropagated=true
 org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
 org.eclipse.jdt.ui.javadoclocations.migrated=true
 proposalOrderMigrated=true
-org.eclipse.jdt.ui.formatterprofiles.version=12
 content_assist_proposals_background=255,255,255
+org.eclipse.jdt.ui.formatterprofiles.version=12
 content_assist_number_of_computers=15
 useQuickDiffPrefPage=true
 org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>

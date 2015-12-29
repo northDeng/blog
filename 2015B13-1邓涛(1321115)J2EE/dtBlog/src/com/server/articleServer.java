@@ -18,8 +18,8 @@ public class articleServer extends server{
 	
 	/**
 	 * 对article表进行插入
-	 * @param name文章人的名字
-	 * @param article文章内容
+	 * @param name 文章人的名字
+	 * @param article 文章内容
 	 * @return
 	 */
 	public int insert(String name,String article){
@@ -44,6 +44,6 @@ public class articleServer extends server{
 	 */
 	public int delete(String name){
 		String sql = "delete from  article where name='"+name+"'";
-		return this.mt.execute_dml(sql);
+		return this.upDate(sql);
 	}
 }

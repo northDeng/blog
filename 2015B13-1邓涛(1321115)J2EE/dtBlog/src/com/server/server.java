@@ -4,8 +4,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import com.dao.serverDao;
-import com.util.fenyepage.page;
 import com.util.mysql.mysqlTools;
+import com.util.page.page;
 /**
  * 实现serverdao的方法
  * @author Administrator
@@ -31,7 +31,9 @@ public  class server implements serverDao{
 		return res = this.mt.execute_dql(sql);
 	}
 	/**
-	 *更新语句
+	 * 更新语句
+	 *@param sql 更新语句
+	 *@return 返回一个int类型的数值  0代表失败 其他数值代表成功 
 	*/
 	public int upDate(String sql) {
 		return rs = this.mt.execute_dml(sql);

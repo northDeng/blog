@@ -1,5 +1,0 @@
-create table blogUser(
-id int primary key  identity(0,1) not null,
-name varchar(32) not null,
-password varchar(64) not null
-)
