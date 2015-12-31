@@ -96,7 +96,7 @@ public class regServlet extends HttpServlet {
    			String password= user.getPassword();
    			if(ads.insert(name,password)>0){
    				out.println(" 注册成功，即将跳向登录界面 。。。。。。。");
-   				response.setHeader("refresh","3;URL=../rLogin.jsp?name="+name+"&password="+password);
+   				response.setHeader("refresh","3;URL=../Login.jsp");
    				
    			}
    		}else{

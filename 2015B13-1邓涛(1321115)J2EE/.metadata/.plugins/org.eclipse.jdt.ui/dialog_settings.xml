@@ -2,8 +2,8 @@
 <section name="Workbench">
 	<section name="NewWebXmlLinkCreationWizardPage">
 		<item value="This is the display name of my J2EE component" key="display_name"/>
-		<item value="This is the description of my J2EE component" key="description"/>
 		<item value="/dtBlog/WebRoot/WEB-INF" key="filePath"/>
+		<item value="This is the description of my J2EE component" key="description"/>
 		<item value="true" key="do_mapping"/>
 	</section>
 	<section name="OptionalMessageDialog.hide.">
@@ -19,8 +19,8 @@
 	<section name="quick_assist_proposal_size">
 	</section>
 	<section name="SourceActionDialog.methods">
-		<item value="false" key="Comments"/>
 		<item value="1" key="VisibilityModifier"/>
+		<item value="false" key="Comments"/>
 		<item value="false" key="SynchronizedModifier"/>
 		<item value="false" key="FinalModifier"/>
 	</section>
@@ -51,8 +51,8 @@
 		<section name="projects">
 			<section name="dtBlog">
 				<item value="E:\MyEclipse%208.6\2015B13-1邓涛(1321115)J2EE\dtBlog\doc" key="destdir"/>
-				<item value="" key="href"/>
 				<item value="E:\MyEclipse 8.6\2015B13-1邓涛(1321115)J2EE\dtBlog\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
 			</section>
 		</section>
 	</section>
@@ -65,13 +65,13 @@
 	</section>
 	<section name="NewServletCreationWizardPage">
 		<item value="1] Default template for Servlet" key="template"/>
-		<item value="false" key="create_dodelete"/>
 		<item value="true" key="create_constructor"/>
-		<item value="false" key="create_servletinfo"/>
+		<item value="false" key="create_dodelete"/>
 		<item value="true" key="create_doget"/>
+		<item value="false" key="create_servletinfo"/>
 		<item value="true" key="create_doinitdestroy"/>
-		<item value="true" key="create_main"/>
 		<item value="true" key="create_unimplemented"/>
+		<item value="true" key="create_main"/>
 		<item value="true" key="create_dopost"/>
 		<item value="false" key="create_doput"/>
 	</section>
@@ -79,15 +79,15 @@
 	</section>
 	<section name="JavaElementSearchActions">
 	</section>
-	<section name="RenameInformationPopup">
-	</section>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
-		<item value="*" key="patterns"/>
-		<item value="false" key="updateQualifiedNames"/>
 		<item value="false" key="renameSubpackages"/>
+		<item value="false" key="updateQualifiedNames"/>
+		<item value="*" key="patterns"/>
 		<item value="1" key="updateSimilarElementsMatchStrategy"/>
 		<item value="false" key="updateTextualMatches"/>
 		<item value="false" key="updateSimilarElements"/>
+	</section>
+	<section name="RenameInformationPopup">
 	</section>
 	<section name="AddGetterSetterDialog">
 		<item value="false" key="RemoveFinal"/>
